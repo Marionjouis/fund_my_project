@@ -1,0 +1,11 @@
+class Student extends Person
+{
+    public function __contruct($nom, $prenom, $notes)
+    {
+        parent::__construct($nom, $prenom);
+        $this->notes = $notes.
+    }
+}
+
+$john = new Student("John", "Doe", [10, 5, 12]);
+echo $john->getAverage();

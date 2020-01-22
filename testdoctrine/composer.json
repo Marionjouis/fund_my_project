@@ -1,0 +1,17 @@
+{
+    "name": "neness/testdoctrine",
+    "authors": [
+        {
+            "name": "mjouis",
+            "email": "marion.jouis@islt.fr"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Entity\\": "Entity/"
+        }
+    }
+}

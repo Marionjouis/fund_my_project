@@ -1,0 +1,12 @@
+{
+    "name": "neness/testcomposer",
+    "authors": [
+        {
+            "name": "mjouis",
+            "email": "marion.jouis@islt.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
