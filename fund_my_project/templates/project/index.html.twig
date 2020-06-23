@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste de nos projets{% endblock %}
+
+{% block body %}
+
+<section class="container">
+    <h1>Liste des projets</h1>
+
+    <div class="container">
+        {% for project in projects %}
+            {% include 'project/_thumbnail.html.twig' with {'project': project} %}
+        {% endfor %}
+    </div>
+
+
+</section>
+{% endblock %}
